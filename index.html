@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHIP-8 Emulator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <h1>Welcome to the CHIP-8 Emulator!</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main id="content" role="main">
+      <!-- Canvas Container -->
+      <div id="canvas-container">
+        <canvas></canvas>
+      </div>
+
+      <!-- Controls -->
+      <div id="controls-container">
+        <button id="speed-btn" class="control">Speed: 1x</button>
+        <button id="pause-btn" class="control">Pause</button>
+        <button id="mute-btn" class="control">Mute</button>
+      </div>
+    </main>
+
+    <!-- Emulator Script -->
+    <script type="module" src="scripts/chip8.js"></script>
+  </body>
+</html>
